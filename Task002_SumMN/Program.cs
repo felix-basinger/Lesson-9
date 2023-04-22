@@ -13,6 +13,6 @@ int PrintNum(int m, int n)
     if (m < n) return PrintNum(m + 1, n) + m;        
     else return m;
 }
-System.Console.WriteLine($"Sum of int = {PrintNum(GetNum("N"), GetNum("M"))}");  
+System.Console.WriteLine($"Sum of int = {PrintNum(GetNum("M"), GetNum("N"))}");  
 
  
