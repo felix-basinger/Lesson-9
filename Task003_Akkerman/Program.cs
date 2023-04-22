@@ -23,4 +23,4 @@ int AkkermanFunc(int m, int n)
         else return AkkermanFunc(m - 1, AkkermanFunc(m, n -1));
     }
 }
-System.Console.WriteLine($"Result = {AkkermanFunc(GetNum("N"), GetNum("M"))}");
+System.Console.WriteLine($"Result = {AkkermanFunc(GetNum("m"), GetNum("n"))}");
